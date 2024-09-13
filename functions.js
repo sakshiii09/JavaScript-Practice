@@ -219,15 +219,14 @@ function sum() {
 //! Reverse a String:
 //! Write a function to reverse a given string without using built-in reverse methods.
 
-// const isReverse = (str) => {
+// const isReserve = (str) => {
 //   let reverse = "";
 //   for (let char = str.length - 1; char >= 0; char--) {
 //     reverse = reverse + str[char];
 //   }
 //   return reverse;
 // };
-
-// console.log(isReverse("vinod thapa"));
+// console.log(isReserve("hello"));
 
 //! Palindrome Check:
 //! Create a function to determine if a given string is a palindrome (reads the same backward as forward).
@@ -235,18 +234,18 @@ function sum() {
 // // isi     isi
 // radar
 // level
-// const isPalindrome = (str) => {
-//   let reverse = "";
-//   for (let char = str.length - 1; char >= 0; char--) {
-//     reverse = reverse + str[char];
-//   }
-//   if (str === reverse) {
-//     return true;
-//   } else {
-//     return false;
-//   }
+const isPalindrome = (str) => {
+  let reverse = "";
+  for (let char = str.length - 1; char >= 0; char--) {
+    reverse = reverse + str[char];
+  }
+  if (str === reverse) {
+    return true;
+  } else {
+    return false;
+  }
 
-//   return str === reverse ? true : false;
-// };
+  //   return str === reverse ? true : false;
+};
 
-// console.log(isPalindrome("level"));
+console.log(isPalindrome("radar"));
