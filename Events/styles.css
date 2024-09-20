@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gradientBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.copyCodeHeading {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+  color: #000;
+}
+.copyCode {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+  color: #000;
+  width: 100%;
+  max-width: 300px;
+}
+.myBtns button {
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+  max-width: 142px;
+  border: none;
+  cursor: pointer;
+}
+
+.myBtns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button#myBtn {
+  background: rgb(4, 4, 32);
+  color: #fff;
+}
+button#myBtn:hover {
+  border: 1px solid yellow;
+}
+button#myBtn2 {
+  background: rgb(53, 161, 26);
+  color: #fff;
+}
+button#myBtn2:hover {
+  border: 1px solid orange;
+}
